@@ -11,7 +11,7 @@ public class MinveMaxDegerleriBulma {
 
         // Girilen sayı miktarının kontrolü
         if (n <= 0) {
-            System.out.println("Hatalı giriş yaptınız veya 0 girdiniz.");
+            System.out.println("Hatalı giriş yaptınız.");
         } else {
             // Girilen sayıları alıp en büyük ve en küçük değerleri bulur
             for (int i = 1; i <= n; i++) {
