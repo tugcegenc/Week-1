@@ -11,12 +11,12 @@ public class Main {
         System.out.print("Lütfen bir ondalıklı sayı girin: ");
         double decNumber = scanner.nextDouble();
 
-        double tamSayiToDouble = intNumber; // Tam sayıyı ondalıklı sayıya dönüştür
-        int ondalikliSayiToInt = (int) decNumber; // Ondalıklı sayıyı tam sayıya dönüştür
+        double intNumberToDouble = intNumber; // Tam sayıyı ondalıklı sayıya dönüştür
+        int decNumberToInt = (int) decNumber; // Ondalıklı sayıyı tam sayıya dönüştür
 
-        System.out.println("Girilen tam sayı (" + intNumber + ") ondalıklı sayıya dönüştürüldü: " + tamSayiToDouble);
-        System.out.println("Girilen ondalıklı sayı (" + decNumber + ") tam sayıya dönüştürüldü: " + ondalikliSayiToInt);
+        System.out.println("Girilen tam sayı (" + intNumber + ") ondalıklı sayıya dönüştürüldü: " + intNumberToDouble);
+        System.out.println("Girilen ondalıklı sayı (" + decNumber + ") tam sayıya dönüştürüldü: " + decNumberToInt);
 
-
+        scanner.close();
     }
 }
