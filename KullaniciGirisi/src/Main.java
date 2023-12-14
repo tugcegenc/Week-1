@@ -24,9 +24,9 @@ public class Main {
             System.out.println("Bilgileriniz Yanlış!");
 
             System.out.print("Şifrenizi sıfırlamak ister misiniz? (E/H): ");
-            String cevap = input.nextLine().toLowerCase();
+            String cevap = input.nextLine().toUpperCase();
 
-            if (cevap.equals("e")) {
+            if (cevap.equals("E")) {
                 // Kullanıcı yeni şifre girer
                 System.out.print("Yeni Şifre: ");
                 String yeniSifre = input.nextLine();
