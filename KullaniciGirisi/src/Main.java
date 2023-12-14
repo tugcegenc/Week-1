@@ -27,7 +27,7 @@ public class Main {
             String cevap = input.nextLine().toUpperCase();
 
             if (cevap.equals("E")) {
-                // Kullanıcı yeni şifre girer
+                // Kullanıcı yeni şifre girer.
                 System.out.print("Yeni Şifre: ");
                 String yeniSifre = input.nextLine();
 
